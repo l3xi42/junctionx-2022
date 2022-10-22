@@ -1,3 +1,5 @@
 from django.contrib import admin
+from GettingWise.models import known_vendors, item
 
-# Register your models here.
+admin.site.register(known_vendors)
+admin.site.register(item)
